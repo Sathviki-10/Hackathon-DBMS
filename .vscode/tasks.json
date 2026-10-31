@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Start Full Stack (npm run dev)",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "🌱 Re-Seed Database (npm run seed)",
+      "type": "npm",
+      "script": "seed",
+      "problemMatcher": []
+    },
+    {
+      "label": "🧪 Run API Tests (npm run test:api)",
+      "type": "npm",
+      "script": "test:api",
+      "problemMatcher": []
+    }
+  ]
+}
